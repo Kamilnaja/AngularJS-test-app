@@ -1,0 +1,28 @@
+{
+  "people": [
+    {
+      "id": "0",
+      "name": "name",
+      "surname": "surname",
+      "dateofbirth": "332233",
+      "mobile": "222",
+      "address": "Lorem ipsum"
+    },
+    {
+      "id": "1",
+      "name": "kamil",
+      "surname": "naja",
+      "dateofbirth": "33.33.33",
+      "mobile": "444",
+      "address": "Lublin"
+    },
+    {
+      "id": "1",
+      "name": "kamil",
+      "surname": "naja",
+      "dateofbirth": "33.33.33",
+      "mobile": "444",
+      "address": "Lublin"
+    }
+  ]
+}
