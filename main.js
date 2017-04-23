@@ -1,19 +1,23 @@
-var app = angular.module('myApp', []);
+var app;
+app = angular.module('myApp', []);
 app.controller('myCtrl', function ($scope, $http) {
     $http.get('users.json')
         .then(function (response) {
-            $scope.myUsers = response.data;
+            $scope.users = response.data;
         });
 
-    $scope.selectUser = function (user) {
-        console.log(user);
-        $scope.clickedUser = user;
+    $scope.clickedUserId = {};
+
+    $scope.selectUser = function (index) {
+        $scope.clickedUserId = this.$index;
+        console.log($scope.clickedUserId);
     };
+
     $scope.editItem = function () {
-        console.log("edit");
     };
-    $scope.deleteItem = function (name) {
-        $scope.users.splice($scope.users.indexOf($scope.clickedUser))
+
+    $scope.deleteUser = function () {
+        $scope.users.people.splice($scope.clickedUserId, 1);
     };
 });
 

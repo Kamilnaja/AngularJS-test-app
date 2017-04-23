@@ -1,13 +1,13 @@
 {
   "people": [
-    {
-      "name": "name",
+    { "id" : 0,
+      "name": "Paulina",
       "surname": "surname",
       "dateofbirth": "332233",
       "mobile": "222",
       "address": "Lorem ipsum"
     },
-    {
+    {"id" : 1,
       "name": "kamil",
       "surname": "naja",
       "dateofbirth": "33.33.33",
@@ -15,7 +15,16 @@
       "address": "Lublin"
     },
     {
-      "name": "kamil",
+      "id" : 2,
+      "name": "Przemo",
+      "surname": "naja",
+      "dateofbirth": "33.33.33",
+      "mobile": "444",
+      "address": "Lublin"
+    },
+    {
+      "id" : 3,
+      "name": "Arek",
       "surname": "naja",
       "dateofbirth": "33.33.33",
       "mobile": "444",
